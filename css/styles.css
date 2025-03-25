@@ -18,6 +18,20 @@ body {
     z-index: 9999;
 }
 
+.toastify {
+    position: absolute !important;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+    inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
+    0px 0px 0px 4px rgba(255, 255, 255, 0.2),
+    0px 0px 20px 0px #0c5790;
+
+}
+
+
 /* 1ra parte */
 
 .backgroundPart {
