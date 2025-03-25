@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regístrate | Euphoria Store </title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" type="image/x-icon" href="/media/indicativo.png">
+</head>
+<body>
+    <h3 id="dimensions">Ancho: -- px, Alto: -- px</h3>
+    
+    <div class="backgroundPart"> 
+        <img src="/media/indicativo-nobg.png" alt="" width="380px">
+
+        <div class="GHBoxes">
+            <div class="GitHubContainer">
+                <a href=""><img src="/media/github-mark.svg">GitHub</a>
+            </div>
+
+            <h5 class="txtAuthor"> Miguel Ballesteros</h5>
+        </div>
+    </div>
+
+    <div class="loginContainer">
+        <div id="imgLogo">
+            <img src="/media/logo.png" width="380vh">
+        </div>
+
+        <h1 id="loginTitle">¡Regístrate!</h1>
+
+        <form class="loginForm">
+            <input type="text" name="userName" id="userNameInp" placeholder="Usuario" autocomplete="off">
+                <br>
+            <input type="password" name="password" id="passwordInp" placeholder="Contraseña" autocomplete="off">
+                <br>
+                <h3 class="txtAccount">¿Ya tienes una cuenta? <span class="re-marked"> <a href="/html/login.html">Inicia Sesión</a></span></h3>
+            <button class="button" id="submitInfo" onclick="registerUser()" type="button"><strong>Registrarme</strong></button>
+            
+            <h3 class="txtAccount">¿Necesitas <span class="re-marked"><a href="">Ayuda</a></span>?</h3>
+        </form>
+    </div>
+
+    <script src="/js/script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>
